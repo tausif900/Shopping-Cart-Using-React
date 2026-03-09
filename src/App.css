@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    width: 50%;
+    margin: 5px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+}
