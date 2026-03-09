@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { IoIosCart } from "react-icons/io";
 import { CartContext } from '../store/CartContext';
+import { ThemeContext } from '../store/ThemeContext';
 
 const ProductList = () => {
   const { addItem } = useContext(CartContext);
